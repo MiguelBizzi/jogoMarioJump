@@ -19,5 +19,5 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Tela de inicio
 <h1 align="center">
-    <img alt="" title="#telainicio" src=".github/telainicio.jpg"/>
+    <img alt="" title="#telainicio" src=".github/telainicio.png"/>
 </h1>
