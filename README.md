@@ -21,3 +21,8 @@ Tela de inicio
 <h1 align="center">
     <img alt="" title="#telainicio" src=".github/telainicio.png"/>
 </h1>
+
+Tela Game Over 
+<h1 align="center">
+    <img alt="" title="#telagameover" src=".github/telagameover.png"/>
+</h1>
