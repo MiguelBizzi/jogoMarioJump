@@ -1,6 +1,6 @@
 ## Informações
 
-Projeto feito a partir de um tutorial do youtube
+Projeto feito a partir de um tutorial do youtube.
 https://www.youtube.com/watch?v=r9buAwVBDhA&list=WL&index=176&t=1350s&ab_channel=ManualdoDev
 
 Com esse tutorial consegui ampliar meus conhecimentos em JS.
