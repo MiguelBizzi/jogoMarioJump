@@ -5,6 +5,10 @@ const mario = document.querySelector('.mario');
 // pegando pipe
 const pipe = document.querySelector('.pipe');
 
+//pegar div game over
+
+const telaGameOver  = document.querySelector('#container-game-over');
+
 //adicionando a classe do pulo
 const jump = () => {
     mario.classList.add('jump');
@@ -27,7 +31,6 @@ const loop = setInterval(() => {
     //o + na frente transforma a string em numero || mesma funcao do number() ou parseInt
     const marioPosition = +window.getComputedStyle(mario).bottom.replace('px','');
 
-
     if (pipePosition <= 120 && pipePosition > 0 && marioPosition < 80) {
         pipe.style.animation = 'none';
         pipe.style.left = `${pipePosition}px`;
@@ -41,7 +44,35 @@ const loop = setInterval(() => {
         mario.style.width = '75px';
         mario.style.marginLeft = '50px';
 
+
+        // mostrando tela game over
+        telaGameOver.style.display = 'block';
+
+
         clearInterval(loop);
+        clearTimeout(cronometro);
+        
     }
 
 }, 10);
+
+
+
+
+//adicionando score
+var score = 0;
+
+var cronometro = setInterval(() => {
+    score += 1;
+        document.getElementById('cronometro').innerHTML = score;
+},10)
+
+
+// botao resetar pagina 
+reloadPagina = () => {  
+    location.reload();
+}
+
+
+
+
